@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "image": "images/1.jpg",
+    "type1": {
+      "question": "ما هو نوع الإفراز الذي تنتجه الخلايا الكأسية المشار إليها بالسهم؟",
+      "answer": "إفراز مخاطي"
+    },
+    "type2": {
+      "question": "حدد نوع الخلية والميزة النسيجية الرئيسية الموضحة في الصورة المجهرية:",
+      "options": [
+        "خلية كأسية - تراكم قطيرات المخاط",
+        "خلية بلازمية - نواتها تشبه عجلة العربة",
+        "خلية صارية - سيتوبلازم حبيبي",
+        "خلية ليفية - مغزلية الشكل"
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "id": 2,
+    "image": "images/2.jpg",
+    "type1": {
+      "question": "ما هو اسم النسيج الضام الأساسي الظاهر في هذه الشريحة المجهرية؟",
+      "answer": "نسيج ضام دهني"
+    },
+    "type2": {
+      "question": "ما هي الوظيفة الفسيولوجية الرئيسية للخلايا السائدة في هذا القطاع النسيجي؟",
+      "options": [
+        "تخزين الطاقة والعزل الحراري",
+        "إعطاء قوة شد عالية في اتجاه واحد",
+        "دعم تبادل الغازات",
+        "نقل السيالات العصبية"
+      ],
+      "answer": 0
+    }
+  },
+  {
+  "id": 18,
+  "image": "images/18.jpg",
+  "type1": {
+    "question": "What is the primary constituent of the White Matter in the central nervous system?",
+    "answer": "Myelinated nerve fibers"
+  },
+  "type2": {
+    "question": "White matter is mainly characterized by the presence of:",
+    "options": [
+      "Neuron cell bodies",
+      "Myelinated nerve fibers",
+      "Collagen fibers",
+      "Adipocytes"
+    ],
+    "answer": 1
+  }
+},
+{
+  "id": 17,
+  "image": "images/17.jpg",
+  "type1": {
+    "question": "What specific type of loose connective tissue is characterized by the prominent presence of fibroblasts, collagen fibers, and elastic fibers in an open gel-like matrix as shown in this slide?",
+    "answer": "Loose areolar connective tissue"
+  },
+  "type2": {
+    "question": "What is type of connective tissue?",
+    "options": [
+      "Loose areolar C.T",
+      "Adipose C.T",
+      "Reticular C.T",
+      "Elastic C.T"
+    ],
+    "answer": 0
+  }
+},
+{
+  "id": 16,
+  "image": "images/16.jpg",
+  "type1": {
+    "question": "What are the specialized non-neuronal supporting cells in the nervous system that provide physical and metabolic support to neurons?",
+    "answer": "Neuroglia"
+  },
+  "type2": {
+    "question": "The supporting cells of nervous tissue are called?",
+    "options": [
+      "Fibroblasts",
+      "Chondrocytes",
+      "Osteocytes",
+      "Neuroglia"
+    ],
+    "answer": 3
+  }
+},
+{
+  "id": 20,
+  "image": "images/20.jpg",
+  "type1": {
+    "question": "What specific type of epithelial tissue lines the stomach and gastrointestinal tract and features tall cells specialized for absorption and secretion as shown in this slide?",
+    "answer": "Simple columnar epithelium"
+  },
+  "type2": {
+    "question": "Where is the epithelium shown found?",
+    "options": [
+      "Stomach",
+      "Trachea",
+      "Skin",
+      "Urinary bladder"
+    ],
+    "answer": 0
+  }
+},
+{
+  "id": 1,
+  "image": "images/1.jpg",
+  "type1": {
+    "question": "Name the mentioned layer and its function?",
+    "answer": "Perichondrium: protects cartilage, provides vascular nourishment, and contains chondroblasts for growth and repair."
+  },
+  "type2": {
+    "question": "What specific type of connective tissue forms the outer layer (Perichondrium) pointed to by the arrow in this cartilage slide?",
+    "options": [
+      "Dense irregular connective tissue",
+      "Simple squamous epithelium",
+      "Hyaline cartilage proper",
+      "Skeletal muscle tissue"
+    ],
+    "answer": 0
+  }
+},{
+  "id": 8,
+  "image": "images/8.jpg",
+  "type1": {
+    "question": "Name the mentioned glands?",
+    "answer": "Brunner's glands (Duodenal glands)"
+  },
+  "type2": {
+    "question": "In which specific layer of the gastrointestinal tract wall are the glands pointed to by the arrow typically located?",
+    "options": [
+      "Submucosa layer",
+      "Mucosa layer (Lamina propria)",
+      "Muscularis externa layer",
+      "Serosa layer"
+    ],
+    "answer": 0
+  }
+}
+  
+]

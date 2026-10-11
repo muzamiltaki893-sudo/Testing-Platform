@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة المختبرات الطبية المستقبلية 2030 | MedLab Nexus</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Tajawal:wght@500;700;900&display=swap" rel="stylesheet">
+</head>
+<body oncontextmenu="return false;">
+
+    <div class="glow-bg"></div>
+    <div class="grid-overlay"></div>
+
+    <div class="main-container">
+        
+        <!-- 1. شاشة تسجيل الدخول الأولية -->
+        <section id="screen-welcome" class="app-screen active">
+            <div class="futuristic-card">
+                <div class="system-badge">بوابة الحسابات الذكية v2030</div>
+                <h1 class="brand-title">منصة <span class="blue-glow-text">المختبرات الطبية</span></h1>
+                <p class="brand-sub">سجل باسمك لإنشاء حساب محلي محفوظ على جهازك واستكشاف مهاراتك</p>
+                
+                <div class="input-box">
+                    <label for="student-name">الاسم الكامل للطالب / الطالبة:</label>
+                    <input type="text" id="student-name" placeholder="أدخل اسمك الثلاثي..." maxlength="40" autocomplete="off">
+                </div>
+
+                <button id="btn-login" class="glow-button">
+                    <span>دخول إلى الحساب الشخصي</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 2. لوحة تحكم الطالب (الحساب المحلي) -->
+        <section id="screen-dashboard" class="app-screen">
+            <div class="futuristic-card">
+                <div class="user-welcome-header">
+                    <div>
+                        <span class="system-badge">حساب طالب نشط</span>
+                        <h2>أهلاً بك، <span id="dash-name" class="blue-glow-text"></span></h2>
+                    </div>
+                    <button id="btn-logout" class="glow-button danger-outline">تبديل الحساب</button>
+                </div>
+
+                <div class="dashboard-stats-grid">
+                    <div class="dash-card">
+                        <span class="dash-label">إجمالي النقاط المكتسبة</span>
+                        <span class="dash-val" id="dash-total-points">0</span>
+                    </div>
+                    <div class="dash-card">
+                        <span class="dash-label">عدد الاختبارات المجتازة</span>
+                        <span class="dash-val" id="dash-total-exams">0</span>
+                    </div>
+                    <div class="dash-card">
+                        <span class="dash-label">أفضل نسبة دقة</span>
+                        <span class="dash-val" id="dash-best-score">0%</span>
+                    </div>
+                </div>
+
+                <div class="dashboard-actions">
+                    <button id="btn-start-new-exam" class="glow-button">بدء اختبار جديد (20 سؤال)</button>
+                </div>
+
+                <div class="history-container">
+                    <h3>سجل الاختبارات السابقة</h3>
+                    <div id="history-list" class="history-list">
+                        <!-- تظهر هنا تفاصيل الاختبارات السابقة -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. شاشة الاختبار -->
+        <section id="screen-quiz" class="app-screen">
+            <header class="quiz-navbar">
+                <div class="user-tag">
+                    <span class="dot"></span>
+                    <span id="display-student-name">الطالب</span>
+                </div>
+                
+                <div class="question-tracker">
+                    السؤال <span id="current-q-num">1</span> من 20
+                </div>
+
+                <div class="timer-badge">
+                    <span>⏱</span> <span id="timer-text">01:30</span>
+                </div>
+            </header>
+
+            <div class="quiz-content futuristic-card">
+                <div class="slide-viewer">
+                    <img id="slide-image" src="" alt="شريحة مجهرية">
+                    <div class="image-watermark">MEDLAB 2030 NEXUS</div>
+                </div>
+
+                <div class="question-pane">
+                    <h2 id="question-title">جاري تحميل السؤال...</h2>
+                    <div id="answer-area" class="answer-area-container"></div>
+                </div>
+            </div>
+
+            <footer class="quiz-actions">
+                <button id="btn-next" class="glow-button secondary" disabled>السؤال التالي ←</button>
+            </footer>
+        </section>
+
+        <!-- 4. شاشة النتيجة والتقرير التفصيلي -->
+        <section id="screen-result" class="app-screen">
+            <div class="futuristic-card result-box">
+                <div class="system-badge success">تم اعتماد التقرير بنجاح</div>
+                <h2>تقرير الأداء التشخيصي الشامل</h2>
+                
+                <div class="result-meta-info">
+                    <p>المختبر: <strong id="res-student-name"></strong></p>
+                    <p>تاريخ الاختبار: <strong id="res-date"></strong></p>
+                </div>
+
+                <div class="score-display">
+                    <div class="score-number"><span id="final-score">0</span> / 20</div>
+                    <div class="score-percentage" id="final-percentage">0%</div>
+                </div>
+
+                <div class="evaluation-tag" id="evaluation-text">جاري تحليل النتائج...</div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-label">النقاط المضافة</span>
+                        <span class="stat-val" id="stat-points">+0</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">الوقت المستغرق</span>
+                        <span class="stat-val" id="stat-time">00:00</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">حالة الأمان</span>
+                        <span class="stat-val clean">موثق آمن</span>
+                    </div>
+                </div>
+
+                <!-- قسم مراجعة الأسئلة بالتفصيل -->
+                <div class="review-section">
+                    <h3>مراجعة إجابات الأسئلة</h3>
+                    <div id="review-list" class="review-list">
+                        <!-- تظهر هنا تفاصيل السؤال وإجابة الطالب والإجابة الصحيحة -->
+                    </div>
+                </div>
+
+                <button id="btn-back-dashboard" class="glow-button">العودة إلى لوحة التحكم الرئيسية</button>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- نافذة تنبيه الحماية -->
+    <div id="anti-cheat-overlay" class="modal-backdrop">
+        <div class="futuristic-card modal-box">
+            <div class="alert-icon">⚠️</div>
+            <h3 class="alert-title">تنبيه أمان النظام!</h3>
+            <p>مغادرة نافذة الاختبار ممنوعة. تم رصد تنبيه رقم (<span id="warn-count">1</span>/3).</p>
+            <button id="btn-ack" class="glow-button danger">العودة للاختبار</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
