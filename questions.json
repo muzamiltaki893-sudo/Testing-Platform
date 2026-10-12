@@ -1,311 +1,311 @@
 [
   {
-  "id": 18,
-  "image": "images/18.jpg",
-  "type1": {
-    "question": "What is the primary constituent of the White Matter in the central nervous system?",
-    "answer": "Myelinated nerve fibers"
+    "id": 18,
+    "image": "images/18.jpg",
+    "type1": {
+      "question": "What is the primary constituent of the White Matter in the central nervous system?",
+      "answer": "Myelinated nerve fibers"
+    },
+    "type2": {
+      "question": "White matter is mainly characterized by the presence of:",
+      "options": [
+        "Neuron cell bodies",
+        "Myelinated nerve fibers",
+        "Collagen fibers",
+        "Adipocytes"
+      ],
+      "answer": 1
+    }
   },
-  "type2": {
-    "question": "White matter is mainly characterized by the presence of:",
-    "options": [
-      "Neuron cell bodies",
-      "Myelinated nerve fibers",
-      "Collagen fibers",
-      "Adipocytes"
-    ],
-    "answer": 1
-  }
-},
-{ 
-  "id": 9,
-  "image": "images/9.jpg",
-  "type1": {
-    "question": "Identify this tissue?",
-    "answer": "Dense regular connective tissue"
+  {
+    "id": 9,
+    "image": "images/9.jpg",
+    "type1": {
+      "question": "Identify this tissue?",
+      "answer": "Dense regular connective tissue"
+    },
+    "type2": {
+      "question": "What specific type of connective tissue is characterized by densely packed, parallel collagen fibers with flattened rows of fibroblasts?",
+      "options": [
+        "Dense regular connective tissue",
+        "Loose areolar connective tissue",
+        "Adipose connective tissue",
+        "Reticular connective tissue"
+      ],
+      "answer": 0
+    }
   },
-  "type2": {
-    "question": "What specific type of connective tissue is characterized by densely packed, parallel collagen fibers with flattened rows of fibroblasts?",
-    "options": [
-      "Dense regular connective tissue",
-      "Loose areolar connective tissue",
-      "Adipose connective tissue",
-      "Reticular connective tissue"
-    ],
-    "answer": 0
-  }
-}, 
-{
-  "id": 19,
-  "image": "images/19.jpg",
-  "type1": {
-    "question": "What specialized type of stratified epithelium, characterized by large dome-shaped surface umbrella cells capable of stretching, lines the urinary bladder?",
-    "answer": "Transitional epithelium (Urothelium)"
+  {
+    "id": 19,
+    "image": "images/19.jpg",
+    "type1": {
+      "question": "What specialized type of stratified epithelium, characterized by large dome-shaped surface umbrella cells capable of stretching, lines the urinary bladder?",
+      "answer": "Transitional epithelium (Urothelium)"
+    },
+    "type2": {
+      "question": "Where is the epithelium shown found?",
+      "options": [
+        "Stomach",
+        "Trachea",
+        "Skin",
+        "Urinary bladder"
+      ],
+      "answer": 3
+    }
   },
-  "type2": {
-    "question": "Where is the epithelium shown found?",
-    "options": [
-      "Stomach",
-      "Trachea",
-      "Skin",
-      "Urinary bladder"
-    ],
-    "answer": 3
-  }
-}, 
-{
-  "id": 30,
-  "image": "images/30.jpg",
-  "type1": {
-    "question": "Identify this tissue?",
-    "answer": "Dense regular connective tissue"
+  {
+    "id": 30,
+    "image": "images/30.jpg",
+    "type1": {
+      "question": "Identify this tissue?",
+      "answer": "Dense regular connective tissue"
+    },
+    "type2": {
+      "question": "What specific type of connective tissue is characterized by densely packed, parallel collagen fibers with flattened rows of fibroblasts?",
+      "options": [
+        "Dense regular connective tissue",
+        "Loose areolar connective tissue",
+        "Adipose connective tissue",
+        "Reticular connective tissue"
+      ],
+      "answer": 0
+    }
   },
-  "type2": {
-    "question": "What specific type of connective tissue is characterized by densely packed, parallel collagen fibers with flattened rows of fibroblasts?",
-    "options": [
-      "Dense regular connective tissue",
-      "Loose areolar connective tissue",
-      "Adipose connective tissue",
-      "Reticular connective tissue"
-    ],
-    "answer": 0
-  }
-},
-{
-  "id": 2,
-  "image": "images/2.jpg",
-  "type1": {
-    "question": "What is the name of the specialized fat-storing cell that dominates adipose tissue, characterized by a large single lipid droplet that flattens and pushes the nucleus to the periphery?",
-    "answer": "Adipocyte"
+  {
+    "id": 2,
+    "image": "images/2.jpg",
+    "type1": {
+      "question": "What is the name of the specialized fat-storing cell that dominates adipose tissue, characterized by a large single lipid droplet that flattens and pushes the nucleus to the periphery?",
+      "answer": "Adipocyte"
+    },
+    "type2": {
+      "question": "1. What type of connective tissue cell is shown in this image?",
+      "options": [
+        "Fibroblast",
+        "Adipocyte",
+        "Macrophage",
+        "Reticular cell"
+      ],
+      "answer": 1
+    }
   },
-  "type2": {
-    "question": "1. What type of connective tissue cell is shown in this image?",
-    "options": [
-      "Fibroblast",
-      "Adipocyte",
-      "Macrophage",
-      "Reticular cell"
-    ],
-    "answer": 1
-  }
-}, 
-{
-  "id": 12,
-  "image": "images/12.jpg",
-  "type1": {
-    "question": "12. Identify the type of connective tissue",
-    "answer": "Dense irregular connective tissue"
+  {
+    "id": 12,
+    "image": "images/12.jpg",
+    "type1": {
+      "question": "12. Identify the type of connective tissue",
+      "answer": "Dense irregular connective tissue"
+    },
+    "type2": {
+      "question": "What specific type of connective tissue features thick, coarse bundles of collagen fibers intertwined in various directions to resist tension from multiple angles?",
+      "options": [
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue",
+        "Loose areolar connective tissue",
+        "Reticular connective tissue"
+      ],
+      "answer": 0
+    }
   },
-  "type2": {
-    "question": "What specific type of connective tissue features thick, coarse bundles of collagen fibers intertwined in various directions to resist tension from multiple angles?",
-    "options": [
-      "Dense irregular connective tissue",
-      "Dense regular connective tissue",
-      "Loose areolar connective tissue",
-      "Reticular connective tissue"
-    ],
-    "answer": 0
-  }
-}, 
-{
-  "id": 3,
-  "image": "images/3.jpg",
-  "type1": {
-    "question": "1. Identify the type of Bone",
-    "answer": "Compact bone"
+  {
+    "id": 3,
+    "image": "images/3.jpg",
+    "type1": {
+      "question": "1. Identify the type of Bone",
+      "answer": "Compact bone"
+    },
+    "type2": {
+      "question": "Which type of mature bone tissue is primarily characterized by the presence of structural units known as osteons (Haversian systems) containing central canals?",
+      "options": [
+        "Spongy (cancellous) bone",
+        "Compact bone",
+        "Woven immature bone",
+        "Calcified cartilage"
+      ],
+      "answer": 1
+    }
   },
-  "type2": {
-    "question": "Which type of mature bone tissue is primarily characterized by the presence of structural units known as osteons (Haversian systems) containing central canals?",
-    "options": [
-      "Spongy (cancellous) bone",
-      "Compact bone",
-      "Woven immature bone",
-      "Calcified cartilage"
-    ],
-    "answer": 1
-  }
-}, 
-{
-  "id": 4,
-  "image": "images/4.jpg",
-  "type1": {
-    "question": "2. Identify the type of epithelial",
-    "answer": "Pseudostratified ciliated columnar epithelium"
+  {
+    "id": 4,
+    "image": "images/4.jpg",
+    "type1": {
+      "question": "2. Identify the type of epithelial",
+      "answer": "Pseudostratified ciliated columnar epithelium"
+    },
+    "type2": {
+      "question": "Which type of epithelial tissue lines the trachea and upper respiratory tract, featuring cells of varying heights with cilia and goblet cells?",
+      "options": [
+        "Simple squamous epithelium",
+        "Stratified squamous epithelium",
+        "Pseudostratified ciliated columnar epithelium",
+        "Transitional epithelium"
+      ],
+      "answer": 2
+    }
   },
-  "type2": {
-    "question": "Which type of epithelial tissue lines the trachea and upper respiratory tract, featuring cells of varying heights with cilia and goblet cells?",
-    "options": [
-      "Simple squamous epithelium",
-      "Stratified squamous epithelium",
-      "Pseudostratified ciliated columnar epithelium",
-      "Transitional epithelium"
-    ],
-    "answer": 2
-  }
-}, 
-{
-  "id": 5,
-  "image": "images/5.jpg",
-  "type1": {
-    "question": "What is the name of the central vascular channel running through the core of each osteon in compact bone that houses blood vessels and nerve fibers?",
-    "answer": "Haversian canal"
+  {
+    "id": 5,
+    "image": "images/5.jpg",
+    "type1": {
+      "question": "What is the name of the central vascular channel running through the core of each osteon in compact bone that houses blood vessels and nerve fibers?",
+      "answer": "Haversian canal"
+    },
+    "type2": {
+      "question": "3. Which is the structure indicated by the arrow?",
+      "options": [
+        "Haversian canal",
+        "Volkmann's canal",
+        "Lacuna",
+        "canaliculi"
+      ],
+      "answer": 0
+    }
   },
-  "type2": {
-    "question": "3. Which is the structure indicated by the arrow?",
-    "options": [
-      "Haversian canal",
-      "Volkmann's canal",
-      "Lacuna",
-      "canaliculi"
-    ],
-    "answer": 0
-  }
-}, 
-{
-  "id": 18,
-  "image": "images/18.jpg",
-  "type1": {
-    "question": "17. Identify the type of Connective tissue",
-    "answer": "Reticular connective tissue"
+  {
+    "id": 50,
+    "image": "images/50.jpg",
+    "type1": {
+      "question": "17. Identify the type of Connective tissue",
+      "answer": "Reticular connective tissue"
+    },
+    "type2": {
+      "question": "Which specialized type of connective tissue features a delicate 3D network of reticular fibers that provide structural support for cells in lymphoid organs such as lymph nodes and the spleen?",
+      "options": [
+        "Dense regular connective tissue",
+        "Reticular connective tissue",
+        "Adipose connective tissue",
+        "Elastic connective tissue"
+      ],
+      "answer": 1
+    }
   },
-  "type2": {
-    "question": "Which specialized type of connective tissue features a delicate 3D network of reticular fibers that provide structural support for cells in lymphoid organs such as lymph nodes and the spleen?",
-    "options": [
-      "Dense regular connective tissue",
-      "Reticular connective tissue",
-      "Adipose connective tissue",
-      "Elastic connective tissue"
-    ],
-    "answer": 1
-  }
-},
-{
-  "id": 15,
-  "image": "images/15.jpg",
-  "type1": {
-    "question": "Q15- identify the epithelium? Name 2 organs have this type of epithelium?",
-    "answer": "Pseudostratified ciliated columnar epithelium. Two organs: Trachea and Bronchi."
+  {
+    "id": 15,
+    "image": "images/15.jpg",
+    "type1": {
+      "question": "Q15- identify the epithelium? Name 2 organs have this type of epithelium?",
+      "answer": "Pseudostratified ciliated columnar epithelium. Two organs: Trachea and Bronchi."
+    },
+    "type2": {
+      "question": "Which specialized respiratory epithelium features cells of varying heights resting on a basement membrane, equipped with cilia and goblet cells to sweep away particulate matter?",
+      "options": [
+        "Simple cuboidal epithelium",
+        "Pseudostratified ciliated columnar epithelium",
+        "Non-keratinized stratified squamous epithelium",
+        "Simple squamous epithelium"
+      ],
+      "answer": 1
+    }
   },
-  "type2": {
-    "question": "Which specialized respiratory epithelium features cells of varying heights resting on a basement membrane, equipped with cilia and goblet cells to sweep away particulate matter?",
-    "options": [
-      "Simple cuboidal epithelium",
-      "Pseudostratified ciliated columnar epithelium",
-      "Non-keratinized stratified squamous epithelium",
-      "Simple squamous epithelium"
-    ],
-    "answer": 1
-  }
-}, 
-{
-  "id": 13,
-  "image": "images/13.jpg",
-  "type1": {
-    "question": "What type of dense regular connective tissue structure connects skeletal muscle to bone, providing strong resistance to tensile forces along one direction?",
-    "answer": "Tendon"
+  {
+    "id": 13,
+    "image": "images/13.jpg",
+    "type1": {
+      "question": "What type of dense regular connective tissue structure connects skeletal muscle to bone, providing strong resistance to tensile forces along one direction?",
+      "answer": "Tendon"
+    },
+    "type2": {
+      "question": "12. This type of connective tissue is commonly found in:",
+      "options": [
+        "Tendon",
+        "Epidermis",
+        "Spleen",
+        "Wall of aorta"
+      ],
+      "answer": 0
+    }
   },
-  "type2": {
-    "question": "12. This type of connective tissue is commonly found in:",
-    "options": [
-      "Tendon",
-      "Epidermis",
-      "Spleen",
-      "Wall of aorta"
-    ],
-    "answer": 0
-  }
-}, 
-{
-  "id": 7,
-  "image": "images/7.jpg",
-  "type1": {
-    "question": "What are the branching bony spicules or plates that make up spongy bone and enclose spaces filled with bone marrow?",
-    "answer": "Trabeculae"
+  {
+    "id": 7,
+    "image": "images/7.jpg",
+    "type1": {
+      "question": "What are the branching bony spicules or plates that make up spongy bone and enclose spaces filled with bone marrow?",
+      "answer": "Trabeculae"
+    },
+    "type2": {
+      "question": "7. Which is the structure indicated by the arrow?",
+      "options": [
+        "Osteon",
+        "Haversian canal",
+        "Bone marrow",
+        "Trabeculae"
+      ],
+      "answer": 3
+    }
   },
-  "type2": {
-    "question": "7. Which is the structure indicated by the arrow?",
-    "options": [
-      "Osteon",
-      "Haversian canal",
-      "Bone marrow",
-      "Trabeculae"
-    ],
-    "answer": 3
-  }
-}, 
-{
-  "id": 6,
-  "image": "images/6.jpg",
-  "type1": {
-    "question": "Q3-Identify this cell?",
-    "answer": "Neutrophil"
+  {
+    "id": 6,
+    "image": "images/6.jpg",
+    "type1": {
+      "question": "Q3-Identify this cell?",
+      "answer": "Neutrophil"
+    },
+    "type2": {
+      "question": "Which type of leukocyte is characterized by a multilobed nucleus (2-5 lobes) and pale cytoplasmic granules, making up the most abundant type of white blood cell in a normal blood smear?",
+      "options": [
+        "Eosinophil",
+        "Neutrophil",
+        "Basophil",
+        "Lymphocyte"
+      ],
+      "answer": 1
+    }
   },
-  "type2": {
-    "question": "Which type of leukocyte is characterized by a multilobed nucleus (2-5 lobes) and pale cytoplasmic granules, making up the most abundant type of white blood cell in a normal blood smear?",
-    "options": [
-      "Eosinophil",
-      "Neutrophil",
-      "Basophil",
-      "Lymphocyte"
-    ],
-    "answer": 1
-  }
-}, 
-{
-  "id": 21,
-  "image": "images/21.jpg",
-  "type1": {
-    "question": "15. Identify the type of Blood Cells",
-    "answer": "Monocyte"
+  {
+    "id": 21,
+    "image": "images/21.jpg",
+    "type1": {
+      "question": "15. Identify the type of Blood Cells",
+      "answer": "Monocyte"
+    },
+    "type2": {
+      "question": "Which type of leukocyte is the largest in circulation, characterized by a large kidney-shaped or indented nucleus and abundant grayish-blue cytoplasm?",
+      "options": [
+        "Lymphocyte",
+        "Monocyte",
+        "Eosinophil",
+        "Neutrophil"
+      ],
+      "answer": 1
+    }
   },
-  "type2": {
-    "question": "Which type of leukocyte is the largest in circulation, characterized by a large kidney-shaped or indented nucleus and abundant grayish-blue cytoplasm?",
-    "options": [
-      "Lymphocyte",
-      "Monocyte",
-      "Eosinophil",
-      "Neutrophil"
-    ],
-    "answer": 1
-  }
-}, 
-{
-  "id": 22,
-  "image": "images/22.jpg",
-  "type1": {
-    "question": "Name the mentioned layer and its function?",
-    "answer": "Periosteum: covers the outer surface of bone, protects it, provides vascular nourishment, and contains osteoprogenitor cells for bone growth and repair."
+  {
+    "id": 22,
+    "image": "images/22.jpg",
+    "type1": {
+      "question": "Name the mentioned layer and its function?",
+      "answer": "Periosteum: covers the outer surface of bone, protects it, provides vascular nourishment, and contains osteoprogenitor cells for bone growth and repair."
+    },
+    "type2": {
+      "question": "What is the primary function of the specialized connective tissue layer (Periosteum) covering the outer surface of bones as indicated in this slide?",
+      "options": [
+        "Providing protection, nourishment, and cells for bone growth and repair",
+        "Regulating body temperature and hormone secretion",
+        "Lining the internal medullary cavities and blood sinuses only",
+        "Facilitating direct gas exchange in lung alveoli"
+      ],
+      "answer": 0
+    }
   },
-  "type2": {
-    "question": "What is the primary function of the specialized connective tissue layer (Periosteum) covering the outer surface of bones as indicated in this slide?",
-    "options": [
-      "Providing protection, nourishment, and cells for bone growth and repair",
-      "Regulating body temperature and hormone secretion",
-      "Lining the internal medullary cavities and blood sinuses only",
-      "Facilitating direct gas exchange in lung alveoli"
-    ],
-    "answer": 0
-  }
-}, 
-{
-  "id": 23,
-  "image": "images/23.jpg",
-  "type1": {
-    "question": "What is the name of the mature cartilage cells located within spaces called lacunae inside the extracellular matrix?",
-    "answer": "Chondrocytes"
+  {
+    "id": 23,
+    "image": "images/23.jpg",
+    "type1": {
+      "question": "What is the name of the mature cartilage cells located within spaces called lacunae inside the extracellular matrix?",
+      "answer": "Chondrocytes"
+    },
+    "type2": {
+      "question": "5. What type of cells shown in this cartilage?",
+      "options": [
+        "Chondrocytes",
+        "Adipocytes",
+        "Fibroblasts",
+        "Osteocytes"
+      ],
+      "answer": 0
+    }
   },
-  "type2": {
-    "question": "5. What type of cells shown in this cartilage?",
-    "options": [
-      "Chondrocytes",
-      "Adipocytes",
-      "Fibroblasts",
-      "Osteocytes"
-    ],
-    "answer": 0
-  }
-},
-{
+  {
     "id": 24,
     "image": "images/24.jpg",
     "type1": {
@@ -484,7 +484,7 @@
       ],
       "answer": 0
     }
-  }،
+  },
   {
     "id": 35,
     "image": "images/35.jpg",
@@ -773,7 +773,7 @@
       "answer": 0
     }
   },
-  { 
+  {
     "id": 8,
     "image": "images/8.jpg",
     "type1": {
@@ -791,5 +791,4 @@
       "answer": 0
     }
   }
-  
 ]
